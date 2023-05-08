@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-OBSIDIAN_VERSION=1.1.16
+OBSIDIAN_VERSION=1.2.7
 apt-get update
 apt install xdg-utils -y
 
