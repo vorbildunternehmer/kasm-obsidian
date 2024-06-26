@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-OBSIDIAN_VERSION=1.6.3
+OBSIDIAN_VERSION=1.6.5
 apt-get update
 apt install xdg-utils -y
 
-wget https://github.com/obsidianmd/obsidian-releases/releases/download/v$(echo $OBSIDIAN_VERSION)/obsidian_$(echo $OBSIDIAN_VERSION)_amd64.deb
-dpkg -i obsidian_$(echo $OBSIDIAN_VERSION)_amd64.deb
-rm -rf obsidian_$(echo $OBSIDIAN_VERSION)_amd64.deb
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v$(echo $OBSIDIAN_VERSION)/obsidian-$(echo $OBSIDIAN_VERSION)-amd64.deb
+dpkg -i obsidian-$(echo $OBSIDIAN_VERSION)-amd64.deb
+rm -rf obsidian-$(echo $OBSIDIAN_VERSION)-amd64.deb
 
 
 rm -rf \
